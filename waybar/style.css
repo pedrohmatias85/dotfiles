@@ -1,0 +1,45 @@
+* {
+  font-family: "RobotoMono Nerd Font", "Nerd Font Symbols", monospace;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0;
+    font-weight: bold;
+    background-color: #272E33;
+
+}
+
+.modules-right{
+    margin-right: 8px;
+}
+
+.modules-left{
+    margin-left: 8px;
+}
+
+.modules-center{
+    font-size: 16;
+    padding: 0px;
+    margin: 0;
+}
+
+
+#workspaces button {
+    all:unset;
+    padding: 0px 5px;
+    color: rgba(180,180,180,0.6); /* inactive workspace color */
+    transition: all .2s ease;
+}
+
+#workspaces button.active {
+    color: #A7BF7F; /* active workspace color */
+    border: none;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+}
+
+#pulseaudio{
+    padding-right: 16px;
+}
+
+#clock{
+    padding-right: 16px;
+}
